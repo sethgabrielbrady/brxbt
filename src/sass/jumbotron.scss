@@ -19,6 +19,7 @@
     .big{
       color:rgb(177, 27, 114);
       font-size: 5em;
+      opacity:.7;
     }
 
     .sub{
@@ -26,14 +27,15 @@
       font-size: 1.5em;
     }
   }
+
   aside:hover{
     background-image: linear-gradient(rgba(177, 27, 114, 0.70), rgba(0, 0, 0, 0.55));
     .big{
       color:white;
+      opacity:1;
     }
     .sub{
-      opacity:10;
+      opacity:1;
     }
   }
-
 }
