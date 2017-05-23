@@ -31,9 +31,11 @@ header {
     .jumbotron aside .big {
       color: #b11b72;
       font-size: 5em;
-      opacity: .7; }
+      transition: opacity 2s;
+      opacity: .6; }
     .jumbotron aside .sub {
       opacity: 0;
+      transition: opacity 1s;
       font-size: 1.5em; }
   .jumbotron aside:hover {
     background-image: linear-gradient(rgba(177, 27, 114, 0.7), rgba(0, 0, 0, 0.55)); }
