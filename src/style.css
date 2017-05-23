@@ -13,7 +13,7 @@ header {
     margin-top: 0; }
 
 .jumbotron {
-  background-image: url("../images/can.jpg");
+  background-image: url("../images/towles.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -29,12 +29,17 @@ header {
     text-align: center;
     flex-basis: 33%; }
     .jumbotron aside .big {
+      color: #b11b72;
       font-size: 5em; }
-    .jumbotron aside p {
+    .jumbotron aside .sub {
+      opacity: 0;
       font-size: 1.5em; }
   .jumbotron aside:hover {
-    background-image: linear-gradient(rgba(177, 27, 114, 0.7), rgba(0, 0, 0, 0.55));
-    font-size: 115%; }
+    background-image: linear-gradient(rgba(177, 27, 114, 0.7), rgba(0, 0, 0, 0.55)); }
+    .jumbotron aside:hover .big {
+      color: white; }
+    .jumbotron aside:hover .sub {
+      opacity: 10; }
 
 .search {
   font-family: 'Lato', sans-serif;

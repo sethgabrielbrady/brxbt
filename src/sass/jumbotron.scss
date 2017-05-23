@@ -1,30 +1,39 @@
-  .jumbotron{
-    background-image: url('../images/can.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    font-family: 'Lato', sans-serif;
-    font-weight: lighter;
-    height: 600px;
-    display:flex;
-    color:white;
-    justify-content: space-between;
+.jumbotron{
+  background-image: url('../images/towles.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  height: 600px;
+  display:flex;
+  color:white;
+  justify-content: space-between;
 
-    aside{
-      margin:0;
-      height:inherit;
-      text-align: center;
-      flex-basis:33%;
+  aside{
+    margin:0;
+    height:inherit;
+    text-align: center;
+    flex-basis:33%;
 
-      .big{
-        font-size: 5em;
-      }
-      p{
-      font-size: 1.5em;
-      }
+    .big{
+      color:rgb(177, 27, 114);
+      font-size: 5em;
     }
-    aside:hover{
-      background-image: linear-gradient(rgba(177, 27, 114, 0.70), rgba(0, 0, 0, 0.55));
-      font-size:115%;
+
+    .sub{
+      opacity:0;
+      font-size: 1.5em;
     }
   }
+  aside:hover{
+    background-image: linear-gradient(rgba(177, 27, 114, 0.70), rgba(0, 0, 0, 0.55));
+    .big{
+      color:white;
+    }
+    .sub{
+      opacity:10;
+    }
+  }
+
+}
