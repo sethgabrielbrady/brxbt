@@ -1,0 +1,23 @@
+.search{
+  font-family: 'Lato', sans-serif;
+  font-weight:lighter;
+  text-align: center;
+  // height:150px;
+  margin:auto;
+  color:black;
+  margin-top:1.5em;
+  font-size: 2.5em;
+  // display:flex;
+  flex-direction: column;
+  // justify-content: space-around;
+
+  p{
+    flex-basis: 30%;
+  }
+
+  .form-control {
+    flex-basis: 30%;
+    font-weight:lighter;
+    font-style: italic;
+  }
+}

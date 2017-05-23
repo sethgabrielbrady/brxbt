@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='brxbt'>
   <head>
     <meta charset="utf-8">
-    <title>brixibit</title>
+    <title>brxbt</title>
+
     <link href='/style.css' rel='stylesheet'>
     <link href='/normalize.css' rel='stylesheet'>
 
@@ -10,14 +11,51 @@
 
   <body>
 
-    <header class='jumbo'>
-      <p class='head'>brixibit</p>
+    <header>
+      <p class='head'>brxbt</p>
       <p>art. everywhere.</p>
     </header>
 
-    <section class ='jumbotron'>
-      
+    <section class='jumbotron'>
+      <aside class='about'>
+      <p class='big'>about</p>
+      <p>Stuff here is always nice</p>
+    </aside>
+    <aside class='discover'>
+      <p class='big'>discover</p>
+      <p>Find new pieces and urban gems. Search by area or artist. </p>
+    </aside>
+    <aside class='post'>
+      <p class='big'>post</p>
+      <p>Stumble across something cool? Want to have you art featured? Post it!</p>
+    </aside>
     </section>
+
+    <section class ='search'>
+      <p>Enter a zip code to discover local art.</p>
+      <label class='control-label' for='zip-code'>Search</label>
+      <input class='form-control' type='search' name='search' placeholder='zip code'>
+      <p>No zip? No problem. We can geo-locate too.</p>
+    </section>
+
+    <main class='view'>
+      <p>Now that we know who you are, I know who I am. I'm not a mistake!
+        It all makes sense! In a comic, you know how you can tell who the
+        arch-villain's going to be? He's the exact opposite of the hero. And
+        most times they're friends, like you and me! I should've known way back
+         when... You know why, David? Because of the kids. They called me
+         Mr Glass. </p>
+    </main>
+
+
+    <footer>
+      <p>2017</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src='//unpkg.com/angular-ui-router/release/angular-ui-router.min.js'></script>
+    <script src='/js/brxbt.module.js'></script>
+
 
   </body>
 </html>
