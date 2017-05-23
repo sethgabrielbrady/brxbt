@@ -32,7 +32,7 @@ header {
       color: #b11b72;
       font-size: 5em;
       transition: opacity 2s;
-      opacity: .6; }
+      opacity: .7; }
     .jumbotron aside .sub {
       opacity: 0;
       transition: opacity 1s;
