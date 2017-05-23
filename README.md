@@ -1,6 +1,6 @@
 # brxzbt
 
-# ![pageres](../src/images/brkzbt.gif)
+# ![pageres](/src/images/brkzbt.gif)
 
 
 Coming soon....
