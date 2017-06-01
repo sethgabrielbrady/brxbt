@@ -34,9 +34,11 @@ header {
       transition: opacity 2s;
       opacity: .7; }
     .jumbotron aside .sub {
+      margin: auto 0;
       opacity: 0;
       transition: opacity 1s;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      flex-basis: 60%; }
   .jumbotron aside:hover {
     background-image: linear-gradient(rgba(177, 27, 114, 0.7), rgba(0, 0, 0, 0.55)); }
     .jumbotron aside:hover .big {
@@ -56,7 +58,11 @@ header {
   flex-direction: column; }
   .search p {
     flex-basis: 30%; }
+  .search .control-label:hover {
+    color: #b11b72;
+    border: 2px solid #b11b72; }
   .search .form-control {
+    color: #b11b72;
     flex-basis: 30%;
     font-weight: lighter;
     font-style: italic; }
